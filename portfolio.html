@@ -58,15 +58,15 @@
 
   <main>
     <div class="container-fluid">
-      <article>
-        <div class="row articleHeading">
+      <article id="parentportfolio">
+        <div class="row articleHeading" id="portfolioheading">
           <div class="col-md-12">
             <h3>Check out some of my projects</h3>
           </div>
         </div>
 
         <div class="row col-md-12" id="portfolio">
-         
+
           <div class="col-md-4" id="front">
 
             <div class="row" id="featurePortfolioHeading">Front-End
@@ -74,16 +74,35 @@
 
                 <div class="col-sm">
                   <div class="card" id="portfolio-card">
-                    <img src="./assets/images/TravelPlanner.JPG" class="card-img-top" id="card-image" alt="travel planning website">
+                    <img src="./assets/images/TravelPlanner.JPG" class="card-img-top" id="card-image"
+                      alt="travel planning website">
                     <div class="card-body">
                       <h5 class="card-title">Travel Planner</h5>
-                      <p class="card-text">Partnered with 4 other developers to create a trip search engine using 3 APIs</p>
-                      <a href="https://margaretseiche.github.io/Project-1-Playground/" class="btn btn-primary" id="button" style="margin-right:10px;"
-                        target="_blank">Plan a Trip</a>
-                      <a href="https://github.com/margaretseiche/Project-1-Playground" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
+                      <p class="card-text">Partnered with 4 other developers to create a trip search engine using 3 APIs
+                      </p>
+                      <a href="https://margaretseiche.github.io/Project-1-Playground/" class="btn btn-primary"
+                        id="button" style="margin-right:10px;" target="_blank">Plan a Trip</a>
+                      <a href="https://github.com/margaretseiche/Project-1-Playground" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
                     </div>
                   </div>
 
+                </div>
+
+                <div class="col-sm">
+                  <div class="card" id="portfolio-card">
+                    <img src="./assets/images/PasswordGenerator.JPG" class="card-img-top" id="card-image"
+                      alt="snapshot of password generator">
+                    <div class="card-body">
+                      <h5 class="card-title">Password Generator</h5>
+                      <p class="card-text">Created a means for users to generate random passwords with specified
+                        criteria</p>
+                      <a href="https://margaretseiche.github.io/05212020-Password-Generator/" class="btn btn-primary"
+                        id="button" style="margin-right:10px;" target="_blank">Try it Out</a>
+                      <a href="https://github.com/margaretseiche/05212020-Password-Generator" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
+                    </div>
+                  </div>
                 </div>
 
                 <div class="col-sm">
@@ -92,117 +111,90 @@
                     <img src="./assets/images/DayPlanner.JPG" class="d-block w-100" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Day Planner with Weather Update</h5>
-                      <p class="card-text">Used Moment.js, local storage, and a weather API to create a scheduling app</p>                    
-                      <a href="https://margaretseiche.github.io/07072020-DayPlannerAndWeather/" class="btn btn-primary" id="button" target="_blank">Plan Your Day</a>
-                      <a href="https://github.com/margaretseiche/07072020-DayPlannerAndWeather" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
-                    
+                      <p class="card-text">Used Moment.js, local storage, and a weather API to create a scheduling app
+                      </p>
+                      <a href="https://margaretseiche.github.io/07072020-DayPlannerAndWeather/" class="btn btn-primary"
+                        id="button" target="_blank">Plan Your Day</a>
+                      <a href="https://github.com/margaretseiche/07072020-DayPlannerAndWeather" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4" id="back">
+
+            <div class="row" id="featurePortfolioHeading">Back-End
+              <div class="row">
+
+                <div class="col-sm">
+                  <div class="card" id="portfolio-card">
+                    <img src="./assets/images/local4.JPG" class="card-img-top" id="card-image" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Burger App</h5>
+                      <p class="card-text">Deployed a food ordering app on Heroku with MySQL and Handlebars</p>
+                      <a href="https://mburgerapp.herokuapp.com" class="btn btn-primary" id="button"
+                        target="_blank">Order a Burger</a><br>
+                      <a href="https://github.com/margaretseiche/08082020-Handlebars-Burgers" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm">
+
+                  <div class="card" id="portfolio-card">
+                    <img src="./assets/images/EmployeeDirectory.JPG" class="d-block w-100" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Team Directory</h5>
+                      <p class="card-text">Developed a Command Line Interface for creating a team profile webpage with
+                        Handlebars</p>
+                      <a href="https://youtu.be/yS8ZmDgy3n8" class="btn btn-primary"
+                        id="button" target="_blank">Watch the demo</a> 
+                      <a href="https://github.com/margaretseiche/07162020-EmployeeDirectory" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
+ 
+
                     </div>
                   </div>
                 </div>
 
                 <div class="col-sm">
                   <div class="card" id="portfolio-card">
-                    <img src="./assets/images/PasswordGenerator.JPG" class="card-img-top" id="card-image" alt="snapshot of password generator">
+                    <img src="./assets/images/ReadMeDemo.JPG" class="card-img-top" id="card-image"
+                      alt="snapshot of password generator">
                     <div class="card-body">
-                      <h5 class="card-title">Password Generator</h5>
-                      <p class="card-text">Created a means for users to generate random passwords with specified criteria</p>
-                      <a href="https://margaretseiche.github.io/05212020-Password-Generator/" class="btn btn-primary" id="button" style="margin-right:10px;"
-                        target="_blank">Try it Out</a>
-                      <a href="https://github.com/margaretseiche/05212020-Password-Generator" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
+                      <h5 class="card-title">ReadMe Generator</h5>
+                      <p class="card-text">Created a command line interface for developers to make formatted ReadMe files</p>
+                      <a href="https://youtu.be/C4KLrUpt-M8" class="btn btn-primary"
+                        id="button" style="margin-right:10px;" target="_blank">Watch the demo</a>
+                      <a href="https://github.com/margaretseiche/07112020-ReadmeGenerator" class="btn btn-primary"
+                        id="button" target="_blank">See the Code</a>
                     </div>
                   </div>
                 </div>
 
-          <div class="col-sm">
-            <div class="card" id="portfolio-card">
-              <img src="./assets/images/Quiz.JPG" class="card-img-top" id="card-image" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Quiz Game</h5>
-                <p class="card-text">Created a logic game of brainteasers to entertain and challenge users</p>
-                <a href="" class="btn btn-primary" id="button" target="_blank">Try the Game</a><br>
-                <a href="https://margaretseiche.github.io/05302020-Quiz/" class="btn btn-primary" id="button" target="_blank">See the Code</a>
               </div>
             </div>
           </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4" id="back">
-
-      <div class="row" id="featurePortfolioHeading">Back-End
-        <div class="row">
-
-          <div class="col-sm">
-            <div class="card" id="portfolio-card">
-              <img src="./assets/images/Peregrine.JPG" class="card-img-top" id="card-image" alt="recommendation app">
-              <div class="card-body">
-                <h5 class="card-title">Full-Stack App</h5>
-                <p class="card-text">Worked with 5 other developers to deploy a full-stack app with MySQL, an external API</p>
-                <a href="https://peregrine-travel.herokuapp.com/" class="btn btn-primary" id="button" style="margin-right:10px;"
-                  target="_blank">Browse the App</a>
-                <a href="https://github.com/jamescook98/peregrine" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-sm">
-
-            <div class="card" id="portfolio-card">
-              <img src="./assets/images/DayPlanner.JPG" class="d-block w-100" alt="">
-              <div class="card-body">
-                <h5 class="card-title">Team Directory</h5>
-                <p class="card-text">Developed a Command Line Interface for creating a team profile webpage with Handlebars</p>                    
-                <a href="https://github.com/margaretseiche/07162020-EmployeeDirectory" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
-              
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm">
-            <div class="card" id="portfolio-card">
-              <img src="./assets/images/PasswordGenerator.JPG" class="card-img-top" id="card-image" alt="snapshot of password generator">
-              <div class="card-body">
-                <h5 class="card-title">P</h5>
-                <p class="card-text">C</p>
-                <a href="https://margaretseiche.github.io/05212020-Password-Generator/" class="btn btn-primary" id="button" style="margin-right:10px;"
-                  target="_blank">T</a>
-                <a href="https://github.com/margaretseiche/05212020-Password-Generator" class="btn btn-primary" id="button" target="_blank">Review the Code</a>
-              </div>
-            </div>
-          </div>
-
-    <div class="col-sm">
-      <div class="card" id="portfolio-card">
-        <img src="./assets/images/local4.JPG" class="card-img-top" id="card-image" alt="">
-        <div class="card-body">
-          <h5 class="card-title">Burger App</h5>
-          <p class="card-text">Deployed a food ordering app on Heroku with MySQL and Handlebars</p>
-          <a href="https://git.heroku.com/mburgerapp.git" class="btn btn-primary" id="button" target="_blank">Order a Burger</a><br>
-          <a href="https://github.com/margaretseiche/08082020-Handlebars-Burgers" class="btn btn-primary" id="button" target="_blank">See the Code</a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</div>
-</div>
 
           <div class="col-md-4" id="other">
             <div class="row" id="featurePortfolioHeading">Other Experience
-              <div class="row" >
+              <div class="row">
 
                 <div class="col-sm">
-                  <div class="card">
+                  <div class="card" id="portfolio-card">
                     <img src="./assets/images/FBCwebsite.JPG" class="card-img-top" id="card-image"
                       alt="redesigned website homepage">
                     <div class="card-body">
                       <h5 class="card-title">Website Re-design</h5>
                       <p class="card-text">Using a new platform, I re-designed
                         a trilingual website, taking it from text-heavy to personable.</p>
-                      
+
                       <a href="./assets/Churchwebsite_originalversion.pdf" class="btn btn-primary" id="button"
                         style="margin-right:10px;" target="_blank">Before</a>
                       <a href="https://www.fbcflushing.org/" class="btn btn-primary" id="button"
@@ -212,20 +204,20 @@
 
                 </div>
                 <div class="col-sm">
-                  <div class="card">
+                  <div class="card" id="portfolio-card">
                     <video src="./assets/acamis.mp4" class="card-img-top" controls muted autoplay:none>Video of a
                       conference</video>
                     <div class="card-body">
                       <h5 class="card-title">Event Management</h5>
                       <p class="card-text">During leadership transition and project expansion, I led 9 teams remotely
-                        for 5 conferences, 10 workshops, 7 sports leagues, and 5 cultural events. (Video: Eduku)</p>
+                        for 5 conferences, 10 workshops, 7 sports leagues, and 5 cultural events. (Video by: In-kind sponsor Eduku)</p>
                     </div>
                   </div>
                 </div>
 
                 <div class="col-sm">
 
-                  <div class="card">
+                  <div class="card" id="portfolio-card">
                     <div id="carouselExampleIndicators" class="carousel slide">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -277,35 +269,17 @@
                       </a>
                     </div>
 
-                    <div class="card-body" id="portfolio-card">
-                      <h5 class="card-title">Non-Profit Marketing and Finance</h5>
-                      <p class="card-text">As part of a team, launched 2 retail operations and
-                        a range of events, growing surpluses 64% per year for 10 years.</p>
+                    <div class="card-body">
+                      <h5 class="card-title">Non-Profit Management</h5>
+                      <p class="card-text">With a team, grew retail and event surpluses 64% annually for 10 years.</p>
                       <a href="./assets/Friends2006to2016.pdf" class="btn btn-primary" id="button"
                         target="_blank">Download the PDF</a>
                     </div>
                   </div>
                 </div>
 
-                <div class="col-sm">
-                  <div class="card" id="portfolio-card">
-                    <img src="./assets/images/Animation.JPG" class="card-img-top" id="card-image"
-                      alt="animated story of Noah">
-                    <div class="card-body">
-                      <h5 class="card-title">Animation</h5>
-                      <p class="card-text">Telling a story to children over Zoom is so much more fun with animation.
-                      </p>
-                      <a href="https://scratch.mit.edu/projects/393666371" class="btn btn-primary" id="button"
-                        target="_blank">Episode 1</a><br>
-                      <a href="https://scratch.mit.edu/projects/394058364/" class="btn btn-primary" id="button"
-                        target="_blank">Episode 2</a><br>
-                      <a href="https://scratch.mit.edu/projects/394083008" class="btn btn-primary" id="button"
-                        target="_blank">Episode 3</a>
-                    </div>
-                  </div>
-                </div>
               </div>
-            
+
             </div>
 
           </div>
