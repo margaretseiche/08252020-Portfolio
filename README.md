@@ -11,5 +11,4 @@ margaretseiche
 ## Questions? Email to     
 margaretseiche@hotmail.com
 
-![tes](/assets/images/portfolioindex.JPG
-            
+![tes](/assets/images/portfolioindex.JPG)
